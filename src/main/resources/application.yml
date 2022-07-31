@@ -1,0 +1,12 @@
+spring:
+  security:
+    user:
+      name: admin
+      password: admin&730      
+  neo4j:
+    uri: bolt://localhost:7687
+    authentication:
+      password: admin&admin
+      username: admin
+server:
+  port: 8089  
